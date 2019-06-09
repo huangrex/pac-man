@@ -26,10 +26,28 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    elf.cpp \
+    wall.cpp \
+    dots.cpp \
+    powerpellets.cpp \
+    ghost.cpp \
+    jessieghost.cpp \
+    wobbuffetghost.cpp \
+    mewothghost.cpp \
+    jamesghost.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    elf.h \
+    wall.h \
+    dots.h \
+    powerpellets.h \
+    ghost.h \
+    jessieghost.h \
+    wobbuffetghost.h \
+    mewothghost.h \
+    jamesghost.h
 
 FORMS += \
         mainwindow.ui
@@ -38,3 +56,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc

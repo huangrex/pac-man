@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>blackpoint.png</file>
+        <file>deadpoolpickachu.png</file>
+        <file>dot1.png</file>
+        <file>james.png</file>
+        <file>Jessie.png</file>
+        <file>Mewoth.png</file>
+        <file>output-onlinepngtools (1).png</file>
+        <file>Pikachu.png</file>
+        <file>Pikachu-down.png</file>
+        <file>pikachu-right.png</file>
+        <file>Pikachu-up.png</file>
+        <file>Wobbuffet.png</file>
+        <file>yellowdot.png</file>
+    </qresource>
+</RCC>
